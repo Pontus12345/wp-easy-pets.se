@@ -1,0 +1,9 @@
+{
+    "name": "wp-easy-pets.se",
+    "description": "wp-easy-pets.se",
+    "keywords": ["cms", "wordpress"],
+    "type": "project",
+    "require": {
+       "mongodb/mongodb": "^1.0.0"
+    }
+}
