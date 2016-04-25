@@ -16,7 +16,10 @@
 						<a class="navbar-brand" href="#">Logga</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#">Contact Us: xxx-xxx-xx</a>
+							</li>
 							<li class="active"><a href="#">Home</a></li>
 							<li><a href="#">About</a></li>
 							<li><a href="#">Contact</a></li>
@@ -31,14 +34,8 @@
 									<li><a href="#">Separated link</a></li>
 									<li><a href="#">One more separated link</a></li>
 								</ul>
-							</li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
+							</li>git
 							<li>
-								<a href="#">Contact Us: xxx-xxx-xx</a>
-							</li>
-							
-							<li class="active">
 								<a href="#">Account <span class="sr-only">(current)</span></a>
 							</li>
 							
