@@ -56,5 +56,13 @@ html, #bootstrap-overrides {
     width: 100%;
     background: #E0F3A2;
     padding: 15px 0; }
-    html .footer p, #bootstrap-overrides .footer p {
-      margin: 0; }
+    html .footer ul, #bootstrap-overrides .footer ul {
+      display: inline-block;
+      margin: 0 50px; }
+      html .footer ul li, #bootstrap-overrides .footer ul li {
+        list-style: none; }
+    html .footer .text-muted, #bootstrap-overrides .footer .text-muted {
+      margin: 10px 0;
+      text-align: center; }
+  html .center, #bootstrap-overrides .center {
+    margin: auto; }
