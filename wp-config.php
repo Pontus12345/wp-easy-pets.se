@@ -26,7 +26,7 @@ define('DB_NAME', 'easy-pets.se');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'PoppeJS66?');
+define('DB_PASSWORD', 'FC5jAaZ6GimR');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
