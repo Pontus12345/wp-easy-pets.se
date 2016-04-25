@@ -96,8 +96,21 @@ html, #bootstrap-overrides {
     	width: 100%;
     	background:$Lightwhite;
     	padding: 15px 0;
-    	p {
-    		margin: 0;
+    	
+    	ul {
+    		display: inline-block;
+    		margin: 0 50px;
+    		li {
+    			list-style:none;
+    		}
     	}
+
+    	.text-muted {
+    		margin: 10px 0;
+    		text-align: center
+    	}
+	}
+	.center {
+		margin: auto;
 	}
 }

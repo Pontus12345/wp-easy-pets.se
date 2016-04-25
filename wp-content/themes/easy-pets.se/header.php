@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Easy Pets</title>
+	<title><?php wp_title('Easy Pets'); ?></title>
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico" />
 	<?php wp_head(); ?>
 </head>
@@ -12,9 +12,11 @@
 		<header>
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
+					
 					<div class="navbar-header">
 						<a class="navbar-brand" href="#">Logga</a>
 					</div>
+					
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li>
@@ -34,7 +36,12 @@
 									<li><a href="#">Separated link</a></li>
 									<li><a href="#">One more separated link</a></li>
 								</ul>
-							</li>git
+							</li>
+
+							</li>
+						</ul>
+
+						<ul class="nav navbar-nav navbar-right">
 							<li>
 								<a href="#">Account <span class="sr-only">(current)</span></a>
 							</li>
@@ -42,7 +49,6 @@
 							<li>
 								<a href="#">Cart </a>
 							</li>
-							
 							<li class="dropdown open">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Name <span class="caret"></span></a>
 								<ul class="dropdown-menu">
