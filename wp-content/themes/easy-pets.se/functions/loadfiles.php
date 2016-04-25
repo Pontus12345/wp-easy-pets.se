@@ -4,7 +4,7 @@
 * Load Styles
 **/
 
-function load_styles()
+function loadfiles()
 {
 	wp_register_style('fonts', 'http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic|Open+Sans:300italic,300,600,700,800|PT+Sans:400,700,400italic,700italic|Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic|Jura:400,300,600,500', array(), null, 'all' );
 
@@ -20,4 +20,4 @@ function load_styles()
 
 }
 
-add_action( 'wp_enqueue_scripts', 'load_styles' );
+add_action( 'wp_enqueue_scripts', 'loadfiles' );

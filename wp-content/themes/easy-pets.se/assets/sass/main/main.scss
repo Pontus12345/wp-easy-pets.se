@@ -1,0 +1,99 @@
+
+@import '_Color.scss';
+
+$width: (50%, 75%, 100%);
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html, #bootstrap-overrides {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #fff;
+	color: $Darkgrey; 
+	font-size: 16px;
+	font-family: "PT Sans",sans-serif;	 
+	#wrapper {
+		min-height: 100%;
+    	position: relative;
+    	overflow: hidden;
+	}
+
+	header {
+		width: 100%;
+		
+		nav {
+			background: $Lightwhite;
+			a {
+				color: $Darkgrey;
+			}
+			.navbar-nav {
+				.active { 
+					a {
+						color: #fff;
+						background: $Darkgreen;
+					}
+				} 
+				.open {
+					.dropdown-toggle{ 
+						color: #fff;
+						background: $Darkgreen;
+					}
+				}
+				.dropdown-menu {
+					min-width: 84px;
+				}
+			} 
+		}
+	}
+
+	content {
+		#inner-wrapper {
+	    	margin:0 0 100px 0;
+			#front-up {
+					width: nth($width, 3);
+				ul {
+					li {
+						display: inline-block;
+						width: 49%;
+						aside {
+							
+						}
+					}
+				}	
+			}
+		}
+		.align {
+			display: inline-block; 
+			vertical-align: top;
+		}
+		#front-middle {
+			.products {
+				margin: 10px 20px;
+				img {
+					width: 100px;
+					height: 100px;
+				}
+				input[type='button'] {
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
+	}
+
+	.footer {
+		position: absolute;
+    	bottom: 0;
+    	left: 0;
+    	width: 100%;
+    	background:$Lightwhite;
+    	padding: 15px 0;
+    	p {
+    		margin: 0;
+    	}
+	}
+}
