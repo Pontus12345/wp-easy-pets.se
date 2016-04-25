@@ -44,8 +44,11 @@ html, #bootstrap-overrides {
       width: 100px;
       height: 100px; }
     html content #front-middle .products input[type='button'], #bootstrap-overrides content #front-middle .products input[type='button'] {
-      width: 30px;
+      width: 100%;
       height: 30px; }
+  html content #front-middle p, #bootstrap-overrides content #front-middle p {
+    width: 75%;
+    text-align: left; }
   html .footer, #bootstrap-overrides .footer {
     position: absolute;
     bottom: 0;

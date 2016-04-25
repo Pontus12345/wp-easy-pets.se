@@ -34,14 +34,28 @@
 							</li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Contact Us: xxx-xxx-xx</a></li>
-							<li class="active"><a href="#">Account <span class="sr-only">(current)</span></a></li>
-							<li><a href="#">Cart </a></li>
+							<li>
+								<a href="#">Contact Us: xxx-xxx-xx</a>
+							</li>
+							
+							<li class="active">
+								<a href="#">Account <span class="sr-only">(current)</span></a>
+							</li>
+							
+							<li>
+								<a href="#">Cart </a>
+							</li>
+							
 							<li class="dropdown open">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Name <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Login</a></li>
-									<li><a href="#">Logout</a></li>
+									<li>
+										<a href="#">Login</a>
+									</li>
+									
+									<li>
+										<a href="#">Logout</a>
+									</li>
 								</ul>
 							</li>					
 						</ul>

@@ -1,7 +1,22 @@
 
 <footer class="footer">
 	<div class="container">
-		<p class="text-muted">&copy; 2016 Pontus Pettersson</p>	
+		<ul>
+			<li><h2>About us</h2></li>
+			<li><p>Contact us</p>></li>
+			<li><p>Regular question</p></li>
+		</ul>
+		<ul>
+			<li><h2>About us</h2></li>
+			<li><p>Contact us</p>></li>
+			<li><p>Regular question</p></li>
+		</ul>
+		<ul>
+			<li><h2>About us</h2></li>
+			<li><p>Contact us</p>></li>
+			<li><p>Regular question</p></li>
+		</ul>
+		<center><p class="text-muted">&copy; 2016 Pontus Pettersson</p></center>	
 	</div>
 </footer>
 

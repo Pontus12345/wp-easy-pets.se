@@ -13,16 +13,16 @@
 						</aside>
 					</li>
 					<li>
-						<aside for='right'>
-							<ul>
-								<li>Right</li>
-							</ul>
-						</aside>
+						<?php get_sidebar('sidebar'); ?>
 					</li>
 				</ul>
 			</div>
 
 			<div id="front-middle">
+			<!-- Will be removed -->
+			<h2>Keep In touch</h2>
+			<p>Ipsum loren pastun isolem kasta ilona terretas, Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretasIpsum loren pastun isolem kasta ilona terretasIpsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas, Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretasIpsum loren pastun isolem kasta ilona terretasIpsum loren pastun isolem kasta ilona terretas Ipsum loren pastun isolem kasta ilona terretas</p>
+			<button>Welcome</button>
 				<center>
 					<div class="align products">
 						<p>Title For products</p>
@@ -46,6 +46,7 @@
 						<input type='button' />
 					</div>
 				</center>
+					<!-- To here -->
 			</div>
 		</div>
 	</content>
