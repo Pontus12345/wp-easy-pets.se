@@ -7,28 +7,34 @@ $width: (50%, 75%, 100%);
 	margin:0;
 	padding:0;
 }
-
-html, #bootstrap-overrides {
-	margin: 0;
-	padding: 0;
-	height: 100%;
+html {
+	position: relative;
+    min-height: 100%;
+}
+#bootstrap-overrides {
+    margin-bottom: 60px;
 	background: #fff;
 	color: $Darkgrey; 
 	font-size: 16px;
 	font-family: "PT Sans",sans-serif;	 
+	
 	#wrapper {
-		min-height: 100%;
-    	position: relative;
-    	overflow: hidden;
 	}
 
 	header {
 		width: 100%;
-		
+		.navbar-header {
+			margin: 0 20px;
+		}
+
 		nav {
 			background: $Lightwhite;
-			a {
-				color: $Darkgrey;
+			li {
+				margin: 0 20px;
+				a {
+					font-size: 17px;
+					color: $Darkgrey;
+				}
 			}
 			.navbar-nav {
 				.active { 
@@ -50,21 +56,19 @@ html, #bootstrap-overrides {
 		}
 	}
 
-	content {
-		#inner-wrapper {
-	    	margin:0 0 100px 0;
-			#front-up {
-					width: nth($width, 3);
-				ul {
-					li {
-						display: inline-block;
-						width: 49%;
-						aside {
-							
-						}
+	#main {
+		margin-bottom:500px;
+		#front-up {
+			width: nth($width, 3);
+			ul {
+				li {
+					display: inline-block;
+					width: 49%;
+					aside {
+
 					}
-				}	
-			}
+				}
+			}	
 		}
 		.align {
 			display: inline-block; 
@@ -88,29 +92,23 @@ html, #bootstrap-overrides {
 			}
 		}
 	}
-
 	.footer {
+		left: 0;
+		bottom: 0;
 		position: absolute;
-    	bottom: 0;
-    	left: 0;
-    	width: 100%;
-    	background:$Lightwhite;
-    	padding: 15px 0;
-    	
-    	ul {
-    		display: inline-block;
-    		margin: 0 50px;
-    		li {
-    			list-style:none;
-    		}
-    	}
+		width: 100%;
+		background:$Lightwhite;
+		ul {
+			display: inline-block;
+			margin: 0 50px;
+			li {
+				list-style:none;
+			}
+		}
 
-    	.text-muted {
-    		margin: 10px 0;
-    		text-align: center
-    	}
-	}
-	.center {
-		margin: auto;
+		.text-muted {
+			margin: 10px 0;
+			text-align: center
+		}
 	}
 }

@@ -19,48 +19,11 @@
 					
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li>
-								<a href="#">Contact Us: xxx-xxx-xx</a>
-							</li>
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
-							<li class="dropdown open">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Products <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li class="dropdown-header">Nav header</li>
-									<li><a href="#">Separated link</a></li>
-									<li><a href="#">One more separated link</a></li>
-								</ul>
-							</li>
-
-							</li>
-						</ul>
-
-						<ul class="nav navbar-nav navbar-right">
-							<li>
-								<a href="#">Account <span class="sr-only">(current)</span></a>
-							</li>
-							
-							<li>
-								<a href="#">Cart </a>
-							</li>
-							<li class="dropdown open">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Name <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="#">Login</a>
-									</li>
-									
-									<li>
-										<a href="#">Logout</a>
-									</li>
-								</ul>
-							</li>					
+							<li><a href="#">Kontakta oss: xxx-xxx-xx</a></li>
+							<li class="active"><a href="#">Blogg</a></li>
+							<li><a href=''>Om oss</a></li>
+							<li><img src="#"></li>
+							<li><a href="#">Test</a></li>
 						</ul>
 					</div>
 				</div>
