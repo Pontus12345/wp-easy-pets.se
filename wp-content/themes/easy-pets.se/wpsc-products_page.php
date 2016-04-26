@@ -93,7 +93,7 @@ $image_width = get_option('product_image_width');
 						?>
 					</div><!--close imagecol-->
 				<?php endif; ?>
-					<div class="productcol" style="margin-left:<?php echo $image_width + 20; ?>px;" >
+					<div class="productcol">
 
 
 
@@ -214,9 +214,6 @@ $image_width = get_option('product_image_width');
 							<?php echo wpsc_buy_now_button(wpsc_the_product_id()); ?>
 						<?php endif ; ?>
 
-						<?php echo wpsc_product_rater(); ?>
-
-
 					<?php // */ ?>
 				</div><!--close productcol-->
 			<?php if(wpsc_product_on_special()) : ?><span class="sale"><?php _e('Sale', 'wp-e-commerce'); ?></span><?php endif; ?>
@@ -225,7 +222,8 @@ $image_width = get_option('product_image_width');
 		<?php endwhile; ?>
 		<?php /** end the product loop here */?>
 		</div>
-		<?php if(wpsc_product_count() == 0):?>
+		
+		<?php if((int)wpsc_product_count() === 0):?>
 			<h3><?php  _e('There are no products in this group.', 'wp-e-commerce'); ?></h3>
 		<?php endif ; ?>
 	    <?php do_action( 'wpsc_theme_footer' ); ?>

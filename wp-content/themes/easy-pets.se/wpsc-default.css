@@ -320,10 +320,6 @@ Author URI: http://instinct.co.nz
 	text-align: right;
 }
 
-.default_product_display .wpsc_buy_button_container{
-	float:right;
-}
-
 /*-----LIST VIEW PRODUCT DISPLAY-----*/
 #list_view_products_page_container {
 	position:relative;
@@ -438,7 +434,6 @@ table.list_productdisplay p.soldout {
 .imagecol {
 	margin-right:5px;
 /* 	width:25%; */
-	float:left;
 	position:relative;
 }
 
