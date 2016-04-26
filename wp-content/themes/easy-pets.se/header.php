@@ -19,6 +19,7 @@
 					<div id="navbar" class="navbar-collapse collapse">
 						<?php wp_nav_menu( ['sort_column' => 'menu_order', 'container_class' => 'menu-header' ] ); ?>
 					</div>
+					<?php get_search_form(); ?>
 				</div>
 			</nav>
 		</header>
