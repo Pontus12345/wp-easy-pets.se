@@ -2,6 +2,125 @@
 @import '_Color.scss';
 
 $width: (50%, 75%, 100%);
+* {
+	margin:0;
+	padding:0;
+} 
 body {
+	background-color: #f5f5f5;
+	font: 300 18px/27px Open Sans,Helvetica Neue,Arial,sans-serif;
+	overflow-x: hidden;
 	
+	/** 
+	* Elements
+	*/
+	#wrapper {
+		/* position:relative;
+		min-height: 100%; */
+	}
+
+	.big-container {
+		margin: auto;
+		max-width: 90%;
+	}
+
+	.min-container {
+		margin: auto;
+		max-width: 900px;
+	}
+	.mov-right {
+		float: right;
+	}
+	.mov-left {
+		float: left;
+	}
+	.inline {
+		display: inline-block;
+	}
+
+	/** 
+	* Header
+	*/
+
+	nav {
+		background: $Darkergreen;
+		z-index: 3;
+		width: 100%;
+		height: 60px;
+		/* overflow: hidden; */
+		opacity:1;
+		transition: opacity .25s ease;
+		-webkit-transition: opacity .25s ease;
+	}
+	.normal-image {
+		height: 65px;
+		width: 200px;
+		float: left;
+	}
+	.page_item {
+		float: right;
+		list-style:none; 
+		line-height: 55px;
+		margin: 0 30px;
+		display: block;
+		font-weight: bolder;
+		
+		a {
+			text-decoration: none;  
+			color: $White;
+		}
+	}
+
+	#elements-show {
+		float: right;
+		line-height: 55px;
+		label {
+			display: none;
+		}
+	}
+	.form-input {
+		height: 30px;
+		border: 1px solid transparent;
+		background: $White;
+		color: #fff;
+		box-shadow: none;
+	}
+	.form-submit {
+		position: relative;
+		right: 4px;
+		top: 2.2px;
+		cursor: pointer;
+		color: $White;
+		padding:6px;
+		background:$Darkergreen;
+		border:1px solid $White;
+		outline: none;
+		&:hover {
+			color: #ddd;
+		}
+	}
+	.form-submit:active {
+		background: #627A14;
+	}
+	
+	/**
+	* Content
+	*/
+
+	content {
+		.start {	
+			background: $White;
+		}
+	}
+
+	/** 
+	* Footer
+	*/
+
+	footer { 
+		position: absolute; 
+		bottom: 0;
+		width: 100%;
+	}
+
 }
