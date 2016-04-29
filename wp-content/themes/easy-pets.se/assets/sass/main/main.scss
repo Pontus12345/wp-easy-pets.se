@@ -6,17 +6,21 @@ $width: (50%, 75%, 100%);
 	margin:0;
 	padding:0;
 } 
-body {
+
+html, body {
 	background-color: #f5f5f5;
 	font: 300 18px/27px Open Sans,Helvetica Neue,Arial,sans-serif;
 	overflow-x: hidden;
+    color: #464646;
+    height: 100%;
 	
 	/** 
 	* Elements
 	*/
+
 	#wrapper {
-		/* position:relative;
-		min-height: 100%; */
+		position:relative;
+		min-height: 100%; 
 	}
 
 	.big-container {
@@ -26,7 +30,7 @@ body {
 
 	.min-container {
 		margin: auto;
-		max-width: 900px;
+		max-width: 900px; 
 	}
 	.mov-right {
 		float: right;
@@ -34,8 +38,14 @@ body {
 	.mov-left {
 		float: left;
 	}
-	.inline {
+	
+	.beside {
 		display: inline-block;
+		vertical-align: top;
+		margin: 0 7px;
+	}
+	.space {
+		margin: 50px 0 0 0;
 	}
 
 	/** 
@@ -74,6 +84,7 @@ body {
 	#elements-show {
 		float: right;
 		line-height: 55px;
+		
 		label {
 			display: none;
 		}
@@ -81,12 +92,12 @@ body {
 	.form-input {
 		height: 30px;
 		border: 1px solid transparent;
-		background: $White;
-		color: #fff;
+		color: $White;
 		box-shadow: none;
 	}
+
 	.form-submit {
-		position: relative;
+		position: relative; 
 		right: 4px;
 		top: 2.2px;
 		cursor: pointer;
@@ -94,6 +105,9 @@ body {
 		padding:6px;
 		background:$Darkergreen;
 		border:1px solid $White;
+		text-transform: uppercase;
+		border-radius:2px;
+
 		outline: none;
 		&:hover {
 			color: #ddd;
@@ -101,18 +115,32 @@ body {
 	}
 	.form-submit:active {
 		background: #627A14;
-	}
+	} 
 	
 	/**
 	* Content
 	*/
 
 	content {
+		p {
+			padding:0 0 100px 0;
+		}
 		.start {	
 			background: $White;
 		}
-	}
+		.expression-header {
+			width: 50%;
+			
+			h2  {
+				font: 30px Montserrat,Lucida Grande,sans-serif;
+				font-weight: 700;
+				font-size: 35px;
+				line-height: 53px;
+			}
 
+		}
+	}
+ 
 	/** 
 	* Footer
 	*/
@@ -121,6 +149,9 @@ body {
 		position: absolute; 
 		bottom: 0;
 		width: 100%;
+		background:$Darkergreen;
+		color: $White;
+		padding:20px;
 	}
 
 }

@@ -17,8 +17,8 @@
 					</div>
 					
 					<div id="elements-show" class="mov-right">
-						<div class="inline"><?php get_search_form(); ?></div>
-						<div class="inline">
+						<div class="beside"><?php get_search_form(); ?></div>
+						<div class="beside">
 							<i style="display: none;"class="fa fa-bars"></i>
 							<i style="display: none;"class="fa fa-times"></i>
 						</div>

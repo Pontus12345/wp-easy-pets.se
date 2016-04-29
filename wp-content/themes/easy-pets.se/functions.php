@@ -1,3 +1,5 @@
 <?php
-require_Once 'functions/loadfiles.php';
-
+foreach (glob(__DIR__."/functions/*.php") as $filename)
+{
+    include $filename;
+}

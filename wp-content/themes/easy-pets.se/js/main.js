@@ -1,1 +1,1 @@
-console.log('Test');
+function stylePut(t,n,e){if(n)for(var o=0;o<e.length;o++)e[o].style.padding=t}function linkSrc(t,n){t&&(location.href=n)}document.addEventListener("DOMContentLoaded",function(){stylePut("15px",document.getElementById("content"),document.querySelectorAll(".btn-All"))});
